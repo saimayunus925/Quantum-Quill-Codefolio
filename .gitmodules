@@ -1,0 +1,3 @@
+[submodule "cmpe126_labs"]
+	path = cmpe126_labs
+	url = https://github.com/saimayunus925/cmpe126_labs.git
