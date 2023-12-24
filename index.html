@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QuantumQuill Codefolio: Saima's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 <body>
-    <div>
+    <div class="block">
         <h5>About</h5>
         <p>I am Saima Yunus, a 2021 graduate from San Jose State University with a BSc in Computer Engineering. 
             My academic coursework has equipped me with proficiency in:
@@ -24,7 +25,7 @@
             countless students master Java, C/C++, Python, and more - along with the fundamentals of computer science.
         </p>
     </div>
-    <div>
+    <div class="block">
         <h5>My Projects</h5>
         <ul>
             <li><a href="https://github.com/saimayunus925/enscrib.git">Enscrib: C++ File Encryption Tool (IN PROGRESS)</a></li>
@@ -35,20 +36,23 @@
             <li><a href="https://github.com/saimayunus925/cmpe126_labs.git">CMPE 126 (Data Structures and Algorithms): Labs 1-4 and Lab 6</a></li>
         </ul>
     </div>
-    <div>
+    <div class="block">
         <h5>My Social Media Profiles</h5>
         <ol>
-            <li>LinkedIn: http://linkedin.com/in/saima-yunus/</li>
-            <li>GitHub: http://github.com/saimayunus925</li>
+            <li><a href="http://linkedin.com/in/saima-yunus/">LinkedIn</a></li>
+            <li><a href="http://github.com/saimayunus925">GitHub</a></li>
         </ol>
+    </div>
+    <div class="block">
         <h5>Contact Me</h5>
+        <br>
         <form action="" method="post" id="contactForm" onsubmit="false">
             <!-- contact form if people need to email me -->
-            <input type="text" placeholder="First Name" name="firstname" id="firstname"><br>
-            <input type="text" placeholder="Last Name" name="lastname" id="lastname"><br>
-            <input type="email" placeholder="Email Address" name="emailAddress" id="emailAddress"><br>
-            <textarea placeholder="Message" name="messageContent" id="messageContent" cols="30" rows="10"></textarea><br>
-            <button type="submit">Done</button>
+            <input class="input is-info" type="text" placeholder="First Name" name="firstname" id="firstname"><br><br>
+            <input class="input is-info" type="text" placeholder="Last Name" name="lastname" id="lastname"><br><br>
+            <input class="input is-info" type="email" placeholder="Email Address" name="emailAddress" id="emailAddress"><br><br>
+            <textarea class="textarea is-info" placeholder="Message" name="messageContent" id="messageContent" cols="30" rows="10"></textarea><br>
+            <button class="button is-info" type="submit">Done</button>
             <br>
         </form>
     </div>
