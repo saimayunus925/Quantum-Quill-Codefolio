@@ -1,0 +1,14 @@
+
+body {
+    background-color: #FCFCFC;
+}
+
+.listItem {
+    padding: 7px;
+    color: #3B1C32;
+    border: solid #000;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #CA054D;
+    display: inline-flex;
+}
