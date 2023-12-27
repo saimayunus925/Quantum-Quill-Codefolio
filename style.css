@@ -1,14 +1,15 @@
 
 body {
-    background-color: #FCFCFC;
+    background-color: #F7F7F2;
 }
 
 .listItem {
     padding: 7px;
-    color: #3B1C32;
-    border: solid #000;
+    color: #260C1A;
+    background-color: #ADEBE5;
+    border: solid;
     border-radius: 5px;
     border-width: 1px;
-    border-color: #CA054D;
-    display: inline-flex;
+    border-color: #260C1A;
+    display: inline-block;
 }
